@@ -25,11 +25,11 @@ This file contains the functions for reading the .txt files, which are as follow
 
 1. read_file_var: Reads the variable information.
 2. read_file_dom: Reads the domain information.
-3. ead_file_ctr: Reads the constraint information.
+3. read_file_ctr: Reads the constraint information.
 
 Additionally, the same file contains the algorithms FC, MAC, FC-CBJ, MINCONFLICTS and dom/wdeg heuristic.
 
-### dom/wdeg heuristc:
+### dom/wdeg heuristic:
 
 The heuristic dom/wdeg prioritizes variables with smaller values and higher weights. The function initializes the weighted_degrees to store the weights of each variable, starting with an initial value of 0. Then, it iterates through the variables in the CSP, excluding those that have already been assigned. For each unassigned variable, it calculates the weighted_degree considering its neighbors and their respective weights. The function computes the ratio of the current domain size to the weighted_degree and updates the best_variable if the ratio is less than the current minimum ratio. Finally, the function returns the variable with the minimum ratio, which the heuristic suggests as the best choice for assignment.
 
