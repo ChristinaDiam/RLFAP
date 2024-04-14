@@ -1,4 +1,4 @@
-## RLFAP 
+## RLFAP - Radio Link Frequency Assignment Problem
 
 #### Execution command: 
 ```
