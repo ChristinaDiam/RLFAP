@@ -27,7 +27,7 @@ This file contains the functions for reading the .txt files, which are as follow
 2. read_file_dom: Reads the domain information.
 3. ead_file_ctr: Reads the constraint information.
 
-Additionally, the same file contains the algorithms FC, MAC, FC-CBJ, MINCONFLICTS and dom/wdeg heuristc.
+Additionally, the same file contains the algorithms FC, MAC, FC-CBJ, MINCONFLICTS and dom/wdeg heuristic.
 
 ### dom/wdeg heuristc:
 
